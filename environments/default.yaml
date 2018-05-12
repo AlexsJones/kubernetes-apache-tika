@@ -1,0 +1,3 @@
+tikaimage: logicalspark/docker-tikaserver
+requestmemory: "256Mi"
+limitmemory: "1Gi"
