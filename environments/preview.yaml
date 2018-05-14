@@ -1,3 +1,0 @@
-tikaimage: us.gcr.io/beamery-preview/devops-tika-server:latest
-requestmemory: "256Mi"
-limitmemory: "1Gi"

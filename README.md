@@ -1,3 +1,14 @@
-# devops-kubernetes-tika
+# kubernetes-apache-tika
 
-![Owner](https://img.shields.io/badge/Alex%20Jones-Owner-blue.svg)
+## Requirements
+```
+# Running on golang 1.8 and above
+go get github.com/AlexsJones/vortex
+```
+
+## Usage
+
+```
+./build_environment.sh default
+kubectl create -f deployment/tika 
+```
