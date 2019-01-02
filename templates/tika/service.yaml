@@ -5,6 +5,7 @@ metadata:
     # Google cloud specific internal Loadbalancer
     cloud.google.com/load-balancer-type: Internal
   name: tika
+  namespace: {{.namespace}} 
   labels:
     app: tika
 spec:
